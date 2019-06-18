@@ -36,8 +36,8 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Weibo />, to: 'https://dribbble.com/ueno' },
-        { icon: <Zhihu />, to: 'https://twitter.com/uenodotco' },
+        { icon: <Weibo />, to: 'https://weibo.com' },
+        { icon: <Zhihu />, to: 'https://zhihu.com' },
       ]}
     />
 
