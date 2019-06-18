@@ -25,14 +25,6 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         >
           {logo}
         </a>
-        <a
-          class="icp"
-          href="https://yqfz.ltd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          粤ICP证：粤ICP备19019851号-2
-        </a>
         <ul className={s.footer__list}>
           {social.map((item) => (
             <li
