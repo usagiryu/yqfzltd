@@ -19,13 +19,20 @@ export const Footer = ({ logo, social }: IFooterProps) => (
     <Container>
       <div className={s.footer__content}>
         <a
-          href="https://ueno.co"
+          href="https://yqfz.ltd"
           target="_blank"
           rel="noopener noreferrer"
         >
           {logo}
         </a>
-
+        <a
+          class="icp"
+          href="https://yqfz.ltd"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          粤ICP证：粤ICP备19019851号-2
+        </a>
         <ul className={s.footer__list}>
           {social.map((item) => (
             <li

@@ -6,8 +6,8 @@ const share = require('assets/images/share.png');
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Ueno',
-  htmlAttributes: { lang: 'en' },
+  titleTemplate: '%s - 一群肥宅',
+  htmlAttributes: { lang: 'zh' },
   meta: [
     { name: 'description', content: description },
     { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
