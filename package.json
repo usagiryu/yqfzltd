@@ -1,23 +1,19 @@
 {
-  "name": "ueno-gatsby-starter",
-  "description": "Opinionated Gatsby starter by Ueno",
+  "name": "GOO Ltd",
+  "description": "Group of otaku Ltd Site",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "All Rights",
   "keywords": [
-    "gatsby",
-    "starter",
-    "react",
-    "typescript",
-    "gatsby-starter",
-    "ueno"
+    "Goo"
   ],
   "contributors": [
     "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
-    "Jérémy Barbet <jeremgraph@gmail.com>"
+    "Jérémy Barbet <jeremgraph@gmail.com>",
+    "Usagi Liu <a@tuzi.moe>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueno-llc/ueno-gatsby-starter"
+    "url": "https://github.com/tuzimoe/yqfzltd"
   },
   "scripts": {
     "dev": "gatsby develop",
