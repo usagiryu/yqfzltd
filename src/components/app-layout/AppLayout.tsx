@@ -4,6 +4,8 @@ import Helmet from 'react-helmet';
 import Logo from 'assets/svg/company-logo.svg';
 import Weibo from 'assets/svg/weibo.svg';
 import Zhihu from 'assets/svg/zhihu.svg';
+import Wechat from 'assets/svg/wechat.svg';
+import Twitter from 'assets/svg/twitter.svg';
 
 import { helmet } from 'utils/helmet';
 import { Header } from 'components/header/Header';
@@ -38,6 +40,8 @@ export default ({ children }: IAppLayoutProps) => (
       social={[
         { icon: <Weibo />, to: 'https://weibo.com' },
         { icon: <Zhihu />, to: 'https://zhihu.com' },
+        { icon: <Wechat />, to: 'https://wechat.com'},
+        { icon: <Twitter />, to: 'https://twitter.com'},
       ]}
     />
 
