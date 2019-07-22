@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
-import { Intro } from 'components/intro/Intro';
-import { Highlight } from 'components/intro/Highlight';
+import { Intro } from 'components/enintro/Intro';
+import { Highlight } from 'components/enintro/Highlight';
 import { BlockText } from 'components/block-text/BlockText';
 
 export default () => (
@@ -10,8 +10,8 @@ export default () => (
     <Helmet title="Hello" />
 
     <Intro>
-      Hi! This is <Highlight>Group Of Otaku Shenzhen Network Technology Co., Ltd. 🤩</Highlight>，<br/>We're from <Highlight>Guangdong Shenzhen 🇨🇳</Highlight>，&nbsp;<br/>
-      We connect <Highlight>Developers, commercial organizations, service providers</Highlight>，Explore personalized industry solutions. Through geographic empowerment, we work with users to explore a bigger world and possible🌍.<br/>
+      Hi! This is <Highlight>Group Of Otaku Shenzhen Network Technology Co., Ltd. 🤩</Highlight><br/>We're from <Highlight>Guangdong Shenzhen 🇨🇳</Highlight>.
+      We connect Developers,commercial organizations,service providers. Explore personalized industry solutions. Through geographic empowerment, we work with users to explore a bigger world and possible🌍.<br/>
     </Intro>
 
     <BlockText
