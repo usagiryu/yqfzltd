@@ -25,6 +25,7 @@ export const Footer = ({ logo, social }: IFooterProps) => (
         >
           {logo}
         </a>
+        <p>粤ICP备：<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备19019851号-4</a></p>
         <ul className={s.footer__list}>
           {social.map((item) => (
             <li

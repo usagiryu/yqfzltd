@@ -24,14 +24,5 @@ export default () => (
         
       )}
     />
-    BlockText
-      heading="公司资质"
-      description={(
-        <>
-          <li>粤ICP备：<a href="http://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备19019851号-4</a></li>
-        </>
-        
-      )}
-    />
   </>
 );
