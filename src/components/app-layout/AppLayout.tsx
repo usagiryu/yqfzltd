@@ -28,7 +28,10 @@ export default ({ children }: IAppLayoutProps) => (
         name="团队"
         to="/team"
       />
-
+      <HeaderLink
+        name="En"
+        to="/en"
+      />
     </Header>
 
     {children}
