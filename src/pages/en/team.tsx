@@ -2,6 +2,8 @@ import * as React from 'react';
 import Helmet from 'react-helmet';
 
 import { Intro } from 'components/intro/Intro';
+import { Highlight } from 'components/enintro/Highlight';
+import { BlockText } from 'components/block-text/BlockText';
 export default () => (
   <>
     <Helmet title="团队" />
