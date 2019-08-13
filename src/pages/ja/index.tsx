@@ -10,15 +10,14 @@ export default () => (
     <Helmet title="Hello" />
 
     <Intro>
-      Hi! This is <Highlight>Group Of Otaku Shenzhen Network Technology Co., Ltd. 🤩</Highlight><br/>We're from <Highlight>Guangdong Shenzhen 🇨🇳</Highlight>.
-      We connect Developers,commercial organizations,service providers. Explore personalized industry solutions. Through geographic empowerment, we work with users to explore a bigger world and possible🌍.<br/>
+      こんにちは！<Highlight>オタクネットワークテクノロジー株式会社です🤩</Highlight><br/><Highlight>広東省深セン出身です 🇨🇳</Highlight>.
+      開発者、商業組織、サービスプロバイダーを接続します。 パーソナライズされた業界ソリューションをご覧ください。 地理的エンパワーメントを通じて、ユーザーと協力してより大きな世界を探索し、可能性を広げます🌍<br/>
     </Intro>
 
     <BlockText
       heading="Company's Product"
       description={(
         <>
-          Dooonut is an LBS social app launched by us.BFF Only👭Miss you buddy ⚽️, girlfriends 💅? Miss you buddy ⚽️, girlfriends 💅? Find them in the donuts. We provide unnecessarily flaws in freezing 😵 and blur positions. It also ensures that your location is safe and will not be obtained by strangers. New friends? Shake and add friends! 🙋<a href="https://www.dooonut.com" target="_blank" rel="noopener noreferrer">www.dooonut.com</a>
         </>
       )}
     />
