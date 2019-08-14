@@ -47,7 +47,7 @@
     "@types/gsap": "1.20.2",
     "@types/lodash": "4.14.136",
     "@types/node": "11.10.4",
-    "@types/react": "16.8.6",
+    "@types/react": "16.9.1",
     "@types/react-dom": "16.8.2",
     "@types/react-helmet": "5.0.9",
     "@ueno/stylelint-config": "1.1.2",
