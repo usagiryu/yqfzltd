@@ -43,7 +43,7 @@
     "react-helmet": "5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.3.4",
+    "@babel/core": "7.5.5",
     "@types/gsap": "1.20.2",
     "@types/lodash": "4.14.136",
     "@types/node": "11.10.4",
