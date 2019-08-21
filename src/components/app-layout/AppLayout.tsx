@@ -29,11 +29,11 @@ export default ({ children }: IAppLayoutProps) => (
         to="/team"
       />
       <HeaderLink
-        name="En"
+        name="🇺🇸"
         to="/en"
       />
       <HeaderLink
-        name="Ja"
+        name="🇯🇵"
         to="/ja"
       />
     </Header>
