@@ -32,6 +32,10 @@ export default ({ children }: IAppLayoutProps) => (
         name="En"
         to="/en"
       />
+      <HeaderLink
+        name="Ja"
+        to="/ja"
+      />
     </Header>
 
     {children}
