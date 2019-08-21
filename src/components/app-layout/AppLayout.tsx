@@ -25,7 +25,7 @@ export default ({ children }: IAppLayoutProps) => (
 
     <Header>
       <HeaderLink
-        name="团队"
+        name="🙋🙋‍♂️🐈"
         to="/team"
       />
       <HeaderLink
