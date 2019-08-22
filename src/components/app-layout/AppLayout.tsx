@@ -25,6 +25,14 @@ export default ({ children }: IAppLayoutProps) => (
 
     <Header>
       <HeaderLink
+        name="🍩"
+        to="https://dooonut.com"
+      />
+      <HeaderLink
+        name="📖"
+        to="/tos"
+      />
+      <HeaderLink
         name="🙋🙋‍♂️🐈"
         to="/team"
       />
