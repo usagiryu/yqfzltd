@@ -1,0 +1,8 @@
+@import '~styles/config';
+
+body {
+  filter: invert(100%);
+}
+.segment {
+  @include segment;
+}
