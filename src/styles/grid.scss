@@ -1,4 +1,4 @@
-// Helper to convert straight number to percentage
+// 转换为百分比
 @function convertify($number) {
   @if type-of($number) == 'number' and unitless($number) {
     @return percentage($number / $grid-column-count);

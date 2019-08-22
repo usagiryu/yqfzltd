@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 /**
- * Custom hooks that return the keys that are pressed on the keyboard
+ * 返回键盘上按键的自定义挂钩
  */
 export const useKeyDown = () => {
   const [keys, setKeys] = React.useState<number[]>([]);

@@ -1,7 +1,7 @@
 @import '~styles/reset';
 @import '~styles/fonts.css';
 
-/* stylelint-disable selector-max-type  */
+/* 限制设备宽度  */
 @-ms-viewport {
   width: device-width;
 }
@@ -38,7 +38,7 @@ body {
 html {
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  overflow-y: scroll; // always show the vertical scrollbar so that content doesn't jump
+  overflow-y: scroll; // 防止内容跳跃
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46,7 +46,7 @@ html {
   box-sizing: border-box;
 }
 
-// inherited from <html>
+// <html> 继承
 *,
 *::before,
 *::after {
@@ -62,7 +62,7 @@ body {
 
   font-family: $font-family;
   line-height: $line-height;
-  text-size-adjust: 100%; // iOS on orientation change
+  text-size-adjust: 100%; // iOS 适配
 
   color: $color-font;
 }
@@ -73,7 +73,7 @@ img {
   height: auto;
 }
 
-// placeholders
+// 占位
 input,
 textarea,
 select {

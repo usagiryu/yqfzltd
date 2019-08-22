@@ -54,7 +54,7 @@
   }
 }
 
-// Alias for responsive-font mixin
+// 响应字体
 @mixin rf($args...) {
   @include responsive-font($args...);
 }
@@ -69,7 +69,7 @@
   }
 }
 
-// Segment customisable per-component / instance rather than being forced to work around defaults.
+// 分段可自定义的每个组件，而不是被迫处理默认值。
 @mixin segment(
   $padding-top: $segment-padding,
   $padding-bottom: $segment-padding,
@@ -77,7 +77,7 @@
   $padding-bottom-mobile: $segment-padding-mobile) {
   flex-grow: 1;
 
-  // Set up unitless values
+  // 设置无单位值
   $padding-top-mobile-unitless: strip-unit($padding-top-mobile);
   $padding-bottom-mobile-unitless: strip-unit($padding-bottom-mobile);
   $padding-top-unitless: strip-unit($padding-top);
@@ -143,7 +143,7 @@
   }
 }
 
-// Gsap trans-in defaults
+// Gsap trans-in默认值
 @mixin will-animate($transform: true, $opacity: true) {
   @include js-only {
     @if $opacity == true {
