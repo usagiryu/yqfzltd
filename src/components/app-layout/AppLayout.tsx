@@ -30,19 +30,19 @@ export default ({ children }: IAppLayoutProps) => (
       />
       <HeaderLink
         name="📖"
-        to="/tos"
+        to="tos/index.html"
       />
       <HeaderLink
         name="🙋🙋‍♂️🐈"
-        to="/team"
+        to="team/index.html"
       />
       <HeaderLink
         name="🇺🇸"
-        to="/en"
+        to="en/index.html"
       />
       <HeaderLink
         name="🇯🇵"
-        to="/ja"
+        to="ja/index.html"
       />
     </Header>
 
